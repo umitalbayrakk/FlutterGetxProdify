@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 class AddProductPage extends StatelessWidget {
   final TextEditingController nameController = TextEditingController();
   final TextEditingController priceController = TextEditingController();
-  final ShoppingController controller = Get.find(); // Controller'ı bul
+  final ShoppingController controller = Get.find(); 
   AddProductPage({super.key});
 
   @override
@@ -50,5 +50,3 @@ class AddProductPage extends StatelessWidget {
     );
   }
 }
-
-// Burada kaldık AddProductPage

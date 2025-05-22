@@ -1,5 +1,4 @@
 //MARK: Produckt
-
 class Produckt {
   final String id;
   final String name;

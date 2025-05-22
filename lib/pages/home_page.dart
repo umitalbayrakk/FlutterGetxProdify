@@ -5,7 +5,7 @@ import 'package:flutter_getx_state_managment/utils/color.dart';
 import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
-  // Controller Bağlama
+  // Controller Bağlama.
   final ShoppingController controller = Get.put(ShoppingController());
   HomePage({super.key});
 
